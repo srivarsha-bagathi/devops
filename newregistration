@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> user registration page </title>
+        <style>
+            input
+            {
+                border: 1px solid black;
+                margin-top: 10px;
+                margin-bottom: 3px;
+                margin-right: 150px;
+                margin-left: 80px;
+                background-color: lightblue;
+            }
+            .move{ margin-right: 30px; }
+            .yet{ margin-right:10px;}
+            .label{align: "center"}
+            .heo{margin-right:10px;}
+        </style>
+    </head>
+
+    <body>
+        <h1 align="center"> registration form</h1>
+        <form align="center">
+            <label><b> User name: </label>
+            <input required type="text" name="first name" class="yet">
+            <br>
+            <label class="move"><b> Name: </label>
+                <input required type="text" name="first name" class="yet">
+                <br>
+            <label><b> Password: </label>
+                <input required type="password"  class="yet">
+                <br>
+            <label class="move"><b> DOB: </label>
+                <input required type="text" name="first name" class="yet">
+                <br>
+            <label class="yet"><b>Contant </label>
+                <input required type="text" name="first name" class="yet" maxlength="10">
+                <br>
+            <input type="submit">
+        </form> 
+
+    </body>
+</html>
